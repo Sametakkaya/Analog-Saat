@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saat-konteynır {
+  position: relative;
+  width: 40rem;
+  height: 40rem;
+  background: url(https://cssanimation.rocks/images/posts/clocks/ios_clock.svg)
+    center;
+  background-repeat: no-repeat;
+  border: 5px solid black;
+  border-radius: 50%;
+  background-size: 88%;
+}
+.saniye {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 12rem;
+  width: 0.1rem;
+  background-color: brown;
+  transform: translateX(-50%);
+  transform-origin: 25% 0;
+}
+.dakika {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 9rem;
+  width: 0.3rem;
+  background-color: rgb(0, 0, 0);
+  transform: translateX(-50%);
+  border-radius: 20px;
+  transform-origin: 25% 0;
+}
+.saat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 6rem;
+  width: 0.5rem;
+  background-color: rgb(0, 0, 0);
+  transform: translateX(-50%);
+  transform-origin: 25% 0;
+  border-radius: 15px;
+}
+.nokta {
+  position: absolute;
+  top: 48.7%;
+  left: 50%;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  transform: translateX(-50%);
+}
